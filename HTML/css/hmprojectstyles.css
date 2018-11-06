@@ -1,0 +1,539 @@
+/* Text Styles */
+hr { color: #252523 }
+body, table, tr, th /* Normal */
+{
+ font-size: 100%;
+ font-family: 'Proxima Nova';
+ font-style: normal;
+ font-weight: normal;
+ color: #252523;
+ text-decoration: none;
+}
+table, tr, th
+{
+ font-size: 100%;
+}
+span.f_BodyText /* Body Text */
+{
+ font-size: 0.92rem;
+}
+span.f_BulletedList /* Bulleted List */
+{
+}
+span.f_BulletedListReleast /* Bulleted List Releast */
+{
+ font-size: 1.08rem;
+}
+span.f_ChoiceTable /* Choice Table */
+{
+}
+span.f_CodeExample /* Code Example */
+{
+ font-size: 0.62rem;
+ font-family: 'Courier New',Courier,monospace;
+ color: #000000;
+}
+span.f_Command /* Command */
+{
+ font-size: 1.08rem;
+ color: #243746;
+}
+span.f_Comment /* Comment */
+{
+}
+span.f_ConceptHeading1 /* Concept Heading 1 */
+{
+ font-size: 1.38rem;
+ color: #898a8d;
+}
+span.f_ConceptHeading2 /* Concept Heading 2 */
+{
+ font-size: 1.08rem;
+ color: #898a8d;
+}
+span.f_eop /* eop */
+{
+ font-size: 0.77rem;
+ font-family: Arial,Helvetica,sans-serif;
+ color: #000000;
+}
+span.f_heading1 /* heading 1 */
+{
+ font-size: 1.23rem;
+ font-family: 'Calibri Light';
+ color: #2f5496;
+}
+span.f_Heading2 /* Heading 2 */
+{
+ font-size: 1.08rem;
+}
+span.f_heading4 /* heading 4 */
+{
+ font-size: 1.08rem;
+ color: #16c4c2;
+}
+span.f_Heading1 /* Heading1 */
+{
+ font-size: 1.54rem;
+ font-family: 'Proxima Nova Light';
+ color: #009098;
+}
+span.f_Hyperlink /* Hyperlink */
+{
+ font-size: 0.77rem;
+ font-family: Arial,Helvetica,sans-serif;
+ color: #0563c1;
+ text-decoration: underline;
+}
+span.f_ImageCaption /* Image Caption */
+{
+ font-size: 0.92rem;
+ font-family: 'Proxima Nova Cond Thin';
+ color: #009098;
+}
+span.f_InfoElement /* Info Element */
+{
+ font-size: 0.92rem;
+ font-family: 'Proxima Nova Light';
+}
+span.f_KnownIssueTracking /* Known Issue Tracking */
+{
+ font-weight: bold;
+ color: #bd2d1f;
+}
+span.f_LastEdited /* Last Edited */
+{
+ font-size: 0.77rem;
+ color: #898a8d;
+}
+span.f_ListParagraph /* List Paragraph */
+{
+}
+span.f_NoSpacing /* No Spacing */
+{
+ font-size: 0.85rem;
+ font-family: Calibri,Vectora,'Droid Sans','Open Sans',Frutiger,sans-serif;
+ color: #000000;
+}
+span.f_normaltextrun /* normaltextrun */
+{
+ font-size: 0.77rem;
+ font-family: Arial,Helvetica,sans-serif;
+ color: #000000;
+}
+span.f_Notes /* Notes */
+{
+}
+span.f_p_normal /* p_normal */
+{
+ font-size: 0.92rem;
+ font-family: 'Times New Roman',Times,Georgia,serif;
+}
+span.f_paragraph /* paragraph */
+{
+ font-size: 0.92rem;
+ font-family: 'Times New Roman',Times,Georgia,serif;
+}
+span.f_RelatedLinks /* Related Links */
+{
+ font-size: 1.08rem;
+ font-family: 'Proxima Nova Black';
+ color: #00806a;
+}
+span.f_ReleaseHeading1 /* Release Heading 1 */
+{
+ font-size: 1.69rem;
+ font-family: 'Proxima Nova Black';
+ color: #009098;
+}
+span.f_ReleaseHeading2 /* Release Heading 2 */
+{
+ font-size: 1.38rem;
+ color: #243746;
+}
+span.f_ReleaseHeading3 /* Release Heading 3 */
+{
+ font-size: 1.23rem;
+ font-family: 'Proxima Nova Cond Thin';
+ font-weight: bold;
+ color: #009098;
+}
+span.f_ReleaseNotesBody /* Release Notes Body */
+{
+ font-size: 1.08rem;
+}
+span.f_Result /* Result */
+{
+}
+span.f_TableText /* Table Text */
+{
+ font-family: 'Proxima Nova Light';
+ color: #333333;
+}
+span.f_Tip /* Tip */
+{
+ font-size: 0.92rem;
+ color: #4c2d8e;
+}
+span.f_Toggle /* Toggle */
+{
+ font-size: 1.08rem;
+ font-family: 'Proxima Nova Black';
+ color: #009098;
+}
+span.f_TopicHeading /* Topic Heading */
+{
+ font-size: 1.23rem;
+ font-family: 'Proxima Nova Light';
+ color: #00806a;
+}
+span.f_TopicHeading2 /* Topic Heading2 */
+{
+ font-size: 1.08rem;
+ font-weight: bold;
+ color: #009098;
+}
+span.f_TopicsinGuide /* Topics in Guide */
+{
+ font-size: 1.08rem;
+ font-family: 'Proxima Nova Black';
+ color: #898a8d;
+}
+span.f_VersionNumber /* Version Number */
+{
+ font-size: 1.08rem;
+ font-family: 'Proxima Nova Cond Thin';
+ font-weight: bold;
+ color: #243746;
+}
+/* Paragraph styles */
+p, p.p_Normal, div.p_Normal, li.p_Normal /* Normal */
+{
+ text-align: left;
+ text-indent: 0;
+ line-height: 1.56;
+ padding: 0 0 0 0;
+ margin: 0 0 0 0;
+}
+.p_BodyText /* Body Text */
+{
+ font-size: 0.92rem;
+ margin: 0 0 0 4.8750rem;
+}
+.p_BulletedList /* Bulleted List */
+{
+ font-size: 1.00rem;
+ line-height: 1.32;
+ margin: 0.1875rem 0.3125rem 0.1875rem 0.3125rem;
+}
+.p_BulletedListReleast /* Bulleted List Releast */
+{
+ font-size: 1.08rem;
+ line-height: 1.50;
+ border-color: #00806a;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ margin: 0.3125rem 0 0.3125rem 0.6250rem;
+}
+.p_ChoiceTable /* Choice Table */
+{
+ font-size: 1.00rem;
+ line-height: 1.50;
+ margin: 0 0 0 0.6250rem;
+}
+.p_CodeExample /* Code Example */
+{
+ font-size: 0.62rem;
+ line-height: 1.0;
+ white-space: nowrap;
+ page-break-inside: avoid;
+}
+.p_Command /* Command */
+{
+ font-size: 1.08rem;
+ line-height: 1.50;
+}
+.p_Comment /* Comment */
+{
+ font-size: 1.00rem;
+}
+.p_ConceptHeading1 /* Concept Heading 1 */
+{
+ font-size: 1.38rem;
+ line-height: 1.38;
+ page-break-inside: avoid;
+ page-break-after: avoid;
+ border-color: #898a8d;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ margin: 0.1875rem 0 0.6250rem 0;
+}
+.p_ConceptHeading2 /* Concept Heading 2 */
+{
+ font-size: 1.08rem;
+ line-height: 1.38;
+ page-break-inside: avoid;
+ page-break-after: avoid;
+ border-color: #898a8d;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ margin: 0.1875rem 0 0.6250rem 0;
+}
+.p_heading1 /* heading 1 */
+{
+ font-size: 1.23rem;
+ page-break-inside: avoid;
+ page-break-after: avoid;
+ margin: 1.0000rem 0 0 0;
+}
+.p_Heading2 /* Heading 2 */
+{
+ font-size: 1.08rem;
+}
+.p_heading4 /* heading 4 */
+{
+ font-size: 1.08rem;
+ line-height: 1.38;
+ page-break-inside: avoid;
+ page-break-after: avoid;
+ border-color: #000000;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ margin: 0.1875rem 0 0.6250rem 0;
+}
+.p_Heading1 /* Heading1 */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0;
+ line-height: 1.56;
+ padding: 0 0 0 0;
+ margin: 0 0 0 0;
+}
+.p_ImageCaption /* Image Caption */
+{
+ font-size: 0.92rem;
+}
+.p_InfoElement /* Info Element */
+{
+ font-size: 0.92rem;
+ line-height: 1.50;
+}
+.p_KnownIssueTracking /* Known Issue Tracking */
+{
+ font-size: 1.00rem;
+}
+.p_LastEdited /* Last Edited */
+{
+ font-size: 0.77rem;
+}
+.p_ListParagraph /* List Paragraph */
+{
+ font-size: 1.00rem;
+ margin: 0 0 0 3.0000rem;
+}
+.p_NoSpacing /* No Spacing */
+{
+ font-size: 0.85rem;
+ line-height: 1.20;
+}
+.p_Notes /* Notes */
+{
+ font-size: 1.00rem;
+}
+.p_p_normal /* p_normal */
+{
+ font-size: 0.92rem;
+ line-height: 1.20;
+}
+.p_paragraph /* paragraph */
+{
+ font-size: 0.92rem;
+ line-height: 1.20;
+ margin: 0.4375rem 0 0.4375rem 0;
+}
+.p_RelatedLinks /* Related Links */
+{
+ font-size: 1.08rem;
+ border-color: #243746;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+}
+.p_ReleaseHeading1 /* Release Heading 1 */
+{
+ font-size: 1.69rem;
+ line-height: 1.50;
+ border-color: #00806a;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ margin: 0.6250rem 0 0 0;
+}
+.p_ReleaseHeading2 /* Release Heading 2 */
+{
+ font-size: 1.38rem;
+ line-height: 1.50;
+ border-color: #d3d5d6;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ background: #c8c8c8;
+ margin: 0.5000rem 0 0.5000rem 0;
+}
+.p_ReleaseHeading3 /* Release Heading 3 */
+{
+ font-size: 1.23rem;
+ line-height: 1.50;
+ border-color: #00806a;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ margin: 0.8750rem 0 0.3750rem 0;
+}
+.p_ReleaseNotesBody /* Release Notes Body */
+{
+ font-size: 1.08rem;
+ line-height: 1.50;
+ border-color: #00806a;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ margin: 0.3125rem 0 0.3125rem 0;
+}
+.p_Result /* Result */
+{
+ font-size: 1.00rem;
+ line-height: 1.50;
+}
+.p_TableText /* Table Text */
+{
+ font-size: 1.00rem;
+ margin: 0.3125rem 0 0.3125rem 0.3125rem;
+}
+.p_Tip /* Tip */
+{
+ font-size: 0.92rem;
+ line-height: 1.50;
+}
+.p_Toggle /* Toggle */
+{
+ font-size: 1.08rem;
+ border-color: #243746;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+}
+.p_TopicHeading /* Topic Heading */
+{
+ font-size: 1.23rem;
+ line-height: 1.38;
+ border-color: #00806a;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ margin: 0.1875rem 0 0.6250rem 0;
+}
+.p_TopicHeading2 /* Topic Heading2 */
+{
+ font-size: 1.08rem;
+ line-height: 1.38;
+ margin: 0.1875rem 0 0.6250rem 0;
+}
+.p_TopicsinGuide /* Topics in Guide */
+{
+ font-size: 1.08rem;
+ border-color: #243746;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+}
+.p_VersionNumber /* Version Number */
+{
+ font-size: 1.08rem;
+ line-height: 1.50;
+ border-color: #00806a;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ border-left: none;
+ margin: 0 0 0.3750rem 0;
+}
+/* Table styles */
+div.hmrotate90  { display:inline-block; transform: -webkit-writing-mode: vertical-rl; -ms-writing-mode: tb-rl; writing-mode: vertical-rl; }
+div.hmrotate270 { display:inline-block; transform: -webkit-writing-mode: vertical-rl; -ms-writing-mode: tb-rl; writing-mode: vertical-rl; transform: rotate(180deg); }
+
+
+
+#hmlightbox /* image lightbox */
+{
+  border: none;
+  padding: 8px;
+  background: #FFF;
+  font-size: 110%;
+  font-weight: bold;
+  color: #777;
+  box-shadow: 5px 5px 5px #888;
+}
+
+a.dropdown-toggle /* dropdown toggle caption */
+{
+  cursor: pointer;
+}
+a.inline-toggle /* inline toggle caption */
+{
+  cursor: pointer;
+}
+img.dropdown-toggle-icon /* toggle icon */
+{
+  cursor: pointer;
+}
+/* CSS for responsive image maps */
+
+.hmImageMap a.hmHotspotRect { display:block; position:absolute; border: 1px solid transparent; background:#000; opacity:0.01; filter:alpha(opacity=1)  }
+.hmImageMap a.hmHotspotEllipse { display:block; position:absolute; border-radius:50%; border: 1px solid transparent; background:#000; opacity:0.01; filter:alpha(opacity=1) }
+.hmImageMap:hover a.hmHotspotRect {opacity:0.3; filter:alpha(opacity=30); }
+.hmImageMap:hover a.hmHotspotEllipse { opacity:0.3; filter:alpha(opacity=30); }
+a.hmHotspotRect:hover { border:1px solid #000; background:#FFF; opacity:0.3; filter:alpha(opacity=30) }
+a.hmHotspotEllipse:hover { border:1px solid #000; background:#FFF; opacity:0.3; filter:alpha(opacity=30) }
